@@ -1,6 +1,4 @@
-
-
-
+ 
 const inp = document.querySelector("input");
 const btn = document.querySelector("button");
 const para = document.querySelector("p");
@@ -12,11 +10,7 @@ btn.addEventListener("click", function (e) {
 
     fetch("https://flagcdn.com/en/codes.json")
         .then(res => res.json())
-        .then(data => {
-        
-        
-                
-            
+        .then(data => { 
                 for(let key in data){
                     
                     if(data[key].toLowerCase()===inp.value){
@@ -27,22 +21,7 @@ btn.addEventListener("click", function (e) {
                         inp.value=" "
                        
                 }
-                }
-
-
- 
-            
-                
-
-
-                
-            
-
+                } 
         })
-
-            
-         
-
-
-
+ 
 })
