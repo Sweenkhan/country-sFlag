@@ -4,7 +4,7 @@
 #wrapper{
     height: 100vh;
     flex-direction: column;
-    background-color: rgb(84, 84, 66);
+    background-color: rgb(84, 84, 68);
 }
 #conatiner,#wrapper{
     display: flex;
